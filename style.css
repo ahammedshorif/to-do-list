@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: aliceblue;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    
+    
+}
+h2{
+    color: orangered;
+}
+.input-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#input-box{
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+    background-color: rgb(115, 176, 229);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(79, 77, 77);
+    border: none;
+    
+}   
+#btn{
+    padding: 15px;
+    position: relative;
+    right: 10px;
+    border-radius: 25px;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+.list-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    text-align: start;
+}
+
+.ul-list{
+    list-style: circle bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(81, 77, 77);
+}
+
